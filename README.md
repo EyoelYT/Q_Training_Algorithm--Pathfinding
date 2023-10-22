@@ -20,6 +20,6 @@ AI and Machine Learning Algorithms can autonomously handle and solve complex pro
 In our code, to solve the complex problem of finding the most efficient pathway through the maze, we implemented a deep Q-learning algorithm. The algorithm includes a neural network that approximates the Q-function and an agent that interacts with the maze and stores its experiences (state, action, reward, next state) in a ‘experience’ replay buffer. The experiences are then randomly sampled to train the neural network to update its weights to better predict Q-values. I also implemented the Bellman equation to calculate the target Q-values based on the current rewards and the maximum predicted Q-values of upcoming states (Mnih et al., 2013). The agent then learns an optimal policy to navigate the maze by iteratively updating the neural network via the agent’s experience.
 
 ### References
-Mnih, V., Badia, A. P., Mirza, M., Graves, A., Lillicrap, T., Harley, T., ... & Kavukcuoglu, K. (2016). Asynchronous methods for deep reinforcement learning. In International conference on machine learning (pp. 1928-1937).
-Sutton, R. S., & Barto, A. G. (2018). Reinforcement learning: An introduction. MIT Press.
-Watkins, C. J. C. H. (1989). Learning from delayed rewards (Ph.D. thesis). Cambridge University.
+Mnih, V., Badia, A. P., Mirza, M., Graves, A., Lillicrap, T., Harley, T., ... & Kavukcuoglu, K. (2016). Asynchronous methods for deep reinforcement learning. In International conference on machine learning (pp. 1928-1937). <br/>
+Sutton, R. S., & Barto, A. G. (2018). Reinforcement learning: An introduction. MIT Press.<br/>
+Watkins, C. J. C. H. (1989). Learning from delayed rewards (Ph.D. thesis). Cambridge University.<br/>
